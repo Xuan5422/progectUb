@@ -1,0 +1,17 @@
+@mixin bw_block($bg_color, $txt_color)
+	margin: 0 auto
+	width: 115px
+	height: 27px
+	background: $bg_color
+	padding: 8px 12px
+	font-style: normal
+	font-weight: 400
+	font-size: 11px
+	text-align: center
+	text-transform: uppercase
+	color: $txt_color
+
+@mixin btn_hover
+	&:hover
+		background-image: none
+		background-color: $color_icon
